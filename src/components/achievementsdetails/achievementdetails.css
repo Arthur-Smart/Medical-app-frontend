@@ -1,0 +1,28 @@
+.achievement-details{
+    position: relative;
+    width:100%;
+    height:40vh;
+    background:url('../../assets/banner02.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.achievement-details::before{
+    content:'';
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color: #fff;
+    z-index: -1;
+}
+
+/*Media queries*/
+@media screen and (max-width:535px) {
+.achievement-details{
+    height:auto;
+}
+}

@@ -1,0 +1,80 @@
+.why-us{
+    width:100%;
+    background:#E3F2FF;
+}
+
+
+
+.why-us-left{
+    width:70%;
+}
+
+.why-us-right{
+    width:30%;
+    background-color: #EDF8FF;
+}
+
+.why-cont{
+    width:400px;
+    height:220px;
+    background-color: #fff;
+}
+
+.why-us-icon{
+    width:60px;
+    height:60px;
+    border-radius: 10px;
+    transform: rotate(45deg);
+    background: #E3F2FF;
+}
+
+.why-cont:hover .why-us-icon{
+    animation: spin 5s infinite linear;
+}
+
+@keyframes spin{
+    from{
+        transform:rotate(0);
+    }
+    to{
+        transform:rotate(-255deg);
+    }
+}
+
+.icon-why{
+    font-size: 28px;
+    transform:rotate(-45deg);
+}
+
+.clinic-wrapper{
+    width:100%;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #3333;
+}
+
+/*Media queries*/
+@media screen and (max-width:840px){
+    .why-wrapper{
+        flex-direction: column;
+    }
+    .why-us-left{
+        width:100%;
+    }
+
+    .why-cont{
+        width:40%;
+        height:auto;
+    }
+        .why-us-right{
+            width:94%;
+        }
+}
+
+@media screen and (max-width:770px){
+.why-cont {
+    width: 100%;
+}
+.icon-text{
+    justify-content: space-between;
+}
+}

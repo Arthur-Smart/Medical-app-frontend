@@ -1,0 +1,187 @@
+.navbar{
+    width:100%;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    box-shadow: 0px 2px 12px 2px rgba(199, 187, 187, 0.16);
+        -webkit-box-shadow: 0px 2px 12px 2px rgba(199, 187, 187, 0.16);
+        -moz-box-shadow: 0px 2px 12px 2px rgba(199, 187, 187, 0.16);
+}
+
+.nav-wrapper-top{
+    width:100%;
+    height:50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.social-links{
+    height: 100%;
+    display:flex;
+    align-items: center;
+    flex:1
+
+}
+
+.moving-text{
+    height: 100%;
+    flex:2;
+    overflow:hidden;
+}
+.button{
+    height:100%;
+    padding:0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex:1
+}
+
+.topBarTextWrapper {
+    height: 100%;
+    animation: move 10s ease-in-out infinite alternate;
+}
+
+@keyframes move {
+    25% {
+        transform: translateY(-50px);
+    }
+
+    50% {
+        transform: translateY(-100px);
+    }
+
+    75% {
+        transform: translateY(-150px);
+    }
+
+    100% {
+        transform: translateY(-200px);
+    }
+}
+
+.topBarTextItem {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.nav-wrapper-bottom {
+    position:relative;
+    width: 100%;
+    padding: 0 20px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #101C37;
+}
+
+.mobile-menu{
+   position: absolute; 
+   top:0;
+   right:0;
+   width:350px;
+   height:100vh;
+   display: flex;
+align-items: center;
+   flex-direction: column;
+background-color: #EDF8FF;
+    box-shadow: 0px 1px 17px 0px rgba(0, 0, 0, 0.3);
+        -webkit-box-shadow: 0px 1px 17px 0px rgba(0, 0, 0, 0.3);
+        -moz-box-shadow: 0px 1px 17px 0px rgba(0, 0, 0, 0.3);
+transform: translateX(350px);
+transition: all ease .5s;
+}
+
+.mobile-menu.show{
+transform: translateX(0);
+}
+
+.items-wrapper{
+    width:100%;
+}
+
+
+.mobile-item{
+    width:100%;
+    margin-bottom: 35px;;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mobile-item p{
+    margin-left: 10px;
+}
+
+.mobile-item li{
+    list-style: none;
+}
+
+.logo{
+flex:1;
+}
+
+.date-time{
+    flex:2;
+}
+
+.menu{
+    flex:1;
+    display: flex;
+    justify-content: end;
+}
+
+.form-holder{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.884);
+    z-index:9999;
+}
+
+/*Media queries*/
+@media screen and (max-width:1240px){
+ .date-time li{
+    font-size: 14px;
+ }
+}
+
+@media screen and (max-width:1143px){
+  .topBarTextItem{
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width:1080px){
+  .date-time{
+    display: none;
+  }
+}
+
+@media screen and (max-width:924px){
+.topBarTextItem {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:764px) {
+    .topBarTextItem {
+       display: none;
+    }
+    .button-btn{
+        padding:1px 70px; 
+        font-size: 14px;
+    }
+}

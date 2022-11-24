@@ -1,0 +1,33 @@
+.statement-container{
+    width:400px;
+    background-color: #e3f2ff;
+}
+
+.statement-icon{
+    width: 70px;
+    height:70px;
+    object-fit: cover;
+}
+
+.accordion{
+    width:100%;
+    padding:10px 10px;
+    background-color: #101C37;
+}
+
+/*Media queries*/
+@media screen and (max-width:1024px){
+.statement-container{
+    width:350px;
+}
+}
+
+@media screen and (max-width:770px){
+    .statement-container{
+        width:95%;
+    }
+}
+
+@media screen and (max-width:670px){
+    
+}

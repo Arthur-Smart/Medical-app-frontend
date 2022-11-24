@@ -1,0 +1,23 @@
+.box-container2{
+    padding:10px 7px;
+    width:100%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin-top:10px;
+}
+
+.form-container{
+    display: flex;
+    flex-direction:column;
+    width:100%;
+}
+
+.account-input{
+    width:100%;
+    outline:none;
+    height:45px;
+    border:1px solid rgba(200, 200, 200, 0.3);
+    padding: 0 10px;
+}
+

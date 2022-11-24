@@ -1,0 +1,32 @@
+.doctors{
+    width: 100%;
+    background-color: #EDF8FF;
+}
+
+.rotate {
+    width: 30px;
+    height: 30px;
+    transform: rotate(45deg)
+}
+
+.fa-user-nurse {
+    transform: rotate(-45deg);
+    font-size: 20px;
+}
+
+.line2{
+    width:50px;
+    height:2px;
+}
+
+/*Media queries*/
+@media screen and (max-width:1021px){
+.single-doctor {
+        width: 350px;
+    }
+}
+@media screen and (max-width:435px){
+    .single-doctor{
+        width:90%;
+    }
+}

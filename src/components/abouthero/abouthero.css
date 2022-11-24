@@ -1,0 +1,46 @@
+.about-hero{
+    width:100%;
+    background: linear-gradient(to right,
+                rgba(2, 191, 197, 0.411),
+                rgb(12, 1, 43)),
+            url("../../assets/cheer.jpg");
+        background-position: center center;
+        background-attachment: fixed;
+}
+
+.hero-image{
+    height:55vh;
+}
+
+.about-hero-text{
+    width:50%;
+}
+
+.about-hero-img{
+    width:50%;
+    
+}
+
+/*Media queries*/
+@media screen and (max-width:800px){
+    .ab-wrapper{
+    flex-direction: column;
+    }
+    .about-hero-text{
+        padding: 7px 8px;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    }
+
+    .about-hero-img{
+        width:100%;
+        justify-content: center;
+    }
+
+        .hero-image {
+           width: 90vw;
+        }
+}

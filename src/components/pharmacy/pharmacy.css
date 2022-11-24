@@ -1,0 +1,73 @@
+.pharmacy {
+  background-color: #e3f2ff;
+}
+
+.select {
+  margin-bottom: 10px;
+  width: 300px;
+  margin-left: 20px;
+  padding: 15px 10px;
+  outline: none;
+}
+
+.drug-container {
+  width: 400px;
+  height: 50vh;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0px 1px 17px 0px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 1px 17px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 1px 17px 0px rgba(0, 0, 0, 0.3);
+}
+
+.drug-img {
+  width: 100%;
+  height: 45%;
+  object-fit: cover;
+}
+
+.desc-price::first-letter {
+  margin-left: 7px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.purchase {
+  position: relative;
+  width: 190px;
+  height: 60px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.purchase::after {
+  content: "Continue Shopping";
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: -100%;
+  border-radius: 5px;
+  color: #333;
+  background-color: aqua;
+  transition: 1s all;
+}
+
+.purchase:hover.purchase::after {
+  transform: translateX(100%);
+}
+
+/*Media queries*/
+@media screen and (max-width:518px){
+  .select {
+    margin-left: calc(85% - 300px );
+  }
+
+    .drug-container{
+      width:95%;
+    }
+
+}

@@ -1,0 +1,54 @@
+.appointment{
+    width:100%;
+    padding-bottom: 10px;
+    background: linear-gradient(to right,
+                rgba(255, 255, 255, 0.1),
+                rgb(8, 80, 189)),
+            url("../../assets/appointment.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.appointment-top{
+    margin-top: -150px;
+}
+
+.input-holder{
+    width:70%;
+}
+
+.input-holder input {
+    width:100%;
+    padding:15px 10px;
+    margin-bottom: 10px;
+    outline:none;
+    border-radius: 4px;
+    border-bottom: 4px solid #101C37;
+    background-color: #e3f2ff;
+}
+
+
+.input-holder select {
+    width: 100%;
+    padding: 15px 10px;
+    margin-bottom: 10px;
+    outline: none;
+    border-radius: 4px;
+    border-bottom: 4px solid #101C37;
+    background-color: #e3f2ff;
+}
+
+/*Media queries*/
+@media screen and (max-width:990px){
+  .appointment-top{
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width:710px){
+.input-holder{
+    width:90%;
+}
+}
+

@@ -1,0 +1,16 @@
+.carousel-container{
+    width:100%;
+    background-color: #E3F2FF;
+}
+
+.carosel-img-cont{
+    height:70px;
+    width:100px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.carousel{
+    height:20vh;
+    background-color: #101C37;
+}

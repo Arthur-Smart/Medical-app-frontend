@@ -1,0 +1,22 @@
+.footer{
+    width:100%;
+    background-color: #e3f2ff;
+}
+
+.card{
+    width:25%;
+}
+
+/*Media queries*/
+@media screen and (max-width:1034px){
+.card{
+    width:50%;
+}
+}
+
+@media screen and (max-width:620px){
+    .card{
+        width:90%;
+        text-align: center;
+    }
+}

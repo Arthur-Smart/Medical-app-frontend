@@ -1,0 +1,8 @@
+.achievementhero{
+    width:100%;
+    height:40vh;
+    background:url('../../assets/banner03.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
