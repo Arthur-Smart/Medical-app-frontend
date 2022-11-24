@@ -34,7 +34,7 @@ function Footer() {
                 <p className='mb-2 text-lg'>Med-signup</p>
                 <p className='mb-2 text-lg'>Catalog</p>
                 <p className='mb-2 text-lg'>Donate</p>
-               <Link to={`/cart/${currentUser._id}`}><p className='mb-2 text-lg'>Your cart</p></Link> 
+               <Link to={`/cart/${currentUser?._id}`}><p className='mb-2 text-lg'>Your cart</p></Link> 
             </div>
         </div>
         <div className='pb-7'>
