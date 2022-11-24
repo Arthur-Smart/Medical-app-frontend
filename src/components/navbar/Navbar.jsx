@@ -82,7 +82,7 @@ const [open, setOpen] = useState(false)
                         <p>Check our track record of success in medical health</p>
                     </div></Link>
                      
-                   <Link to={`/cart/${currentUser._id}`} onClick={() => setOpen(false)} > <div className='mobile-item'>
+                   <Link to={`/cart/${currentUser?._id}`} onClick={() => setOpen(false)} > <div className='mobile-item'>
                         <div><img src={require('../../assets/cart-icon.png')} alt=''/></div>
                         <p>Purchase and payment. Check your cart</p>
                     </div> </Link>
