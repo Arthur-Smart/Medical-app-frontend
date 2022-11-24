@@ -11,7 +11,6 @@ import SubServices from '../../components/subservices/SubServices'
 import Surgery from '../../components/surgery/Surgery'
 import Testimonial from '../../components/testimonial/Testimonial'
 import Updates from '../../components/updates/Updates'
-import VideoChart from '../../components/videoChat/VideoChart'
 import WhyUs from '../../components/whyus/WhyUs'
 import './home.css'
 
