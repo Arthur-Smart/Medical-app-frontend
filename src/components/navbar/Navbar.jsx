@@ -46,7 +46,7 @@ const [open, setOpen] = useState(false)
                     <Link to='/about'><li className='ml-11 text-lg cursor-pointer font-light' >About us</li></Link> 
                     <Link to='/services'> <li className='ml-11 text-lg cursor-pointer font-light' >Services</li></Link>
                     <Link to='/achievements'><li className='ml-11 text-lg cursor-pointer font-light' >Achievements</li></Link> 
-                    <Link to={`/cart/${currentUser._id}`} ><li className='ml-11 text-lg cursor-pointer font-light' >Your cart <i class="fa-solid fa-cart-plus"></i></li></Link>
+                    <Link to={`/cart/${currentUser?._id}`} ><li className='ml-11 text-lg cursor-pointer font-light' >Your cart <i class="fa-solid fa-cart-plus"></i></li></Link>
                 </ul>
             </div>
             <div onClick={() => setOpen(true)} className='menu'>
