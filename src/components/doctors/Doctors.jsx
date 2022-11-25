@@ -8,7 +8,7 @@ function Doctors() {
   console.log(slicedData)
   return (
     <div className='doctors flex flex-col items-center justify-center py-5'>
-    <p className='text-3xl font-bold mb-4 text-slate-700 text-center'>Meet our doctors, <span className='font-extrabold text-transparent text-10xl bg-clip-text bg-gradient-to-r from-blue-400 to-pink-800'>professionalism</span> made real</p>
+    <p className='text-3xl px-2 font-bold mb-4 text-slate-700 text-center'>Meet our doctors, <span className='font-extrabold text-transparent text-10xl bg-clip-text bg-gradient-to-r from-blue-400 to-pink-800'>professionalism</span> made real</p>
     <div className="flex items-center gap-2">
         <div className='line2 bg-cyan-500'></div>
         <div className='rotate flex items-center justify-center bg-cyan-500'>
