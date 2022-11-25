@@ -42,7 +42,17 @@ function Cart() {
         }
         fetchedData()
     }, [])
-    console.log(data)
+    
+    const number = document.getElementById('number');
+
+// Listen for input event on numInput.
+number.onkeydown = function(e) {
+    if(!((e.keyCode > 95 && e.keyCode < 106)
+      || (e.keyCode > 47 && e.keyCode < 58) 
+      || e.keyCode == 8)) {
+        return false;
+    }
+}
     
     const handleAddToCart = async () => {        
     const inputs = {userId, title:filteredData?.title, productImg:filteredData?.imageUrl, qty, cost:filteredData?.cost * qty, username, useremail, userphone, location}
@@ -73,7 +83,7 @@ function Cart() {
                     < hr/>
                     <div className='mt-4'>
                         <p className='text-gray-600 font-medium'>The default quantity is 1. Set you quantity below</p>
-                        <input type='number' placeholder='Enter quantity' className='cart-input' onChange={(e) => setQty(e.target.value)}/>
+                        <input type='number'  id="number" min="0"  placeholder='Enter quantity' className='cart-input' onChange={(e) => setQty(e.target.value)}/>
                         <p className='text-xl  mt-2 font-medium'> <b>Unit price:</b> Kes {filteredData?.cost} </p>
                     </div>
                 </div>
