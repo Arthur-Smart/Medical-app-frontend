@@ -26,8 +26,8 @@ function Appointment() {
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e3f2ff" fill-opacity="1" d="M0,128L720,32L1440,96L1440,0L720,0L0,0Z"></path></svg>
         <div className=' container flex flex-col items-center justify-center appointment-wrapper'>
             <div className='appointment-top flex flex-col items-center justify-center'>
-                <p className='font-extrabold text-center text-transparent text-5xl bg-clip-text bg-gradient-to-r from-blue-700 to-pink-600 drop-shadow-lg'>Book an appointment with us</p>
-                <p className='text-white text-lg text-center'>Let us assign and prepare our doctors before meeting with you. Avoid risks of<br /> coming while the doctor is held with another patiate.</p>
+                <p className='font-extrabold text-center text-transparent text-3xl md:text-5xl bg-clip-text bg-gradient-to-r from-blue-700 to-pink-600 drop-shadow-lg'>Book an appointment with us</p>
+                <p className='text-white text-lg px-1 text-center'>Let us assign and prepare our doctors before meeting with you. Avoid risks of<br /> coming while the doctor is held with another patiate.</p>
             </div>
             <div className='input-holder flex flex-col items-center items-center justify-center'>
                 <input type='text' placeholder='Enter full name eg.Stephen Kimani' onChange={(e) => setName(e.target.value)}/>
