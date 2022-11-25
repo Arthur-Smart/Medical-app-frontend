@@ -38,7 +38,7 @@
 
 @media screen and (max-width:1053px){
  .service-cont{
-    flex-direction: column-reverse;
+    flex-direction: column;
  }
 
  .cont-left2{
