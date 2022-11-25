@@ -25,8 +25,9 @@
         width: 350px;
     }
 }
-@media screen and (max-width:435px){
-    .single-doctor{
+@media screen and (max-width:490px){
+   .single-doctor{
         width:90%;
+        height:auto;
     }
 }
