@@ -22,7 +22,7 @@ function Pharmacy() {
 
     const handleAddToCart = (id) =>{
         if(currentUser == null){
-            alert('Please Sing in to continue purchasing')
+            alert('Please Singin at the navbar to continue purchasing!')
         } else {
            navigate(`/products/${id}`)
         }
