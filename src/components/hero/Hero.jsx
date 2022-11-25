@@ -21,9 +21,9 @@ function Hero() {
                         <span class="animate-ping absolute inline-flex h-4 w-4 rounded-full bg-sky-400 opacity-75"></span>
                         <span class="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
                     </span>
-                        <button onClick={() => setCode(!code)} className='text-black text-lg bg-yellow-400 hover:bg-sky-600 hover:text-white py-4 px-10 rounded-md'>Daktari Online</button>
+                        <button onClick={() => setCode(!code)} className='length text-black text-lg bg-yellow-400 hover:bg-sky-600 hover:text-white py-4 px-10 rounded-md'>Daktari Online</button>
                      </div>
-                    <a href='#pharmacy'><button className='text-white border-2 ml-4 text-lg bg-transparent hover:bg-gradient-to-r from-cyan-500 to-blue-500 mt-2 hover:border-blue-500 py-4 px-10 rounded-md'>Pharmarcy</button></a>
+                    <a href='#pharmacy'><button className='length text-white border-2 ml-4 text-lg bg-transparent hover:bg-gradient-to-r from-cyan-500 to-blue-500 mt-2 hover:border-blue-500 py-4 px-10 rounded-md'>Pharmarcy</button></a>
                 </div>
                 {code && 
                
