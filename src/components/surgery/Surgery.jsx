@@ -6,7 +6,7 @@ function Surgery() {
     <div className='surgery flex flex-col items-center justify-center '>
    
           
-          <div className='container px-5 surgery-wrapper flex items-center  justify-between'>
+          <div className='container px-2 surgery-wrapper flex items-center  justify-between'>
             <div className='surgery-left'>
                 <p className='text-white font-extrabold text-3xl md:text-5xl'>BORESHA AFYA</p>
                 <p className='pb-2 font-extrabold text-transparent text-2xl md:text-5xl bg-clip-text bg-gradient-to-r from-blue-700 to-pink-600 drop-shadow-lg'>Minor and Major surgeries</p>
