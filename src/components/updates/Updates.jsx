@@ -30,9 +30,9 @@ function Updates() {
                     <div>
                         <p className='text-center text-2xl font-semibold uppercase text-sky-600'>Free medical camp</p>
                         <div className='flex items-center justify-around mt-2'>
-                            <p className='text-stone-800 text-lg'><b>Venue</b> Nakuru Hall</p>
-                            <p className='text-stone-800 text-lg'><b>Date</b> 12/11/2022</p>
-                            <p className='text-stone-800 text-lg'><b>Time</b> 2:00pm - 5:00pm</p>
+                            <p className='text-stone-800 size text-lg'><b>Venue</b> Nakuru Hall</p>
+                            <p className='text-stone-800 size text-lg'><b>Date</b> 12/11/2022</p>
+                            <p className='text-stone-800 size text-lg'><b>Time</b> 2:00pm - 5:00pm</p>
                         </div>
                     </div>
                     
@@ -43,9 +43,9 @@ function Updates() {
                     <div>
                         <p className='text-center text-2xl font-semibold uppercase text-sky-600'>Maternity Consultation</p>
                         <div className='flex items-center justify-around mt-2'>
-                            <p className='text-stone-800 text-lg'><b>Venue</b>Nairobi Field</p>
-                            <p className='text-stone-800 text-lg'><b>Date</b> 12/30/2022</p>
-                            <p className='text-stone-800 text-lg'><b>Time</b> 10:00am - 2:00pm</p>
+                            <p className='text-stone-800 size text-lg'><b>Venue</b>Nairobi Field</p>
+                            <p className='text-stone-800 size text-lg'><b>Date</b> 12/30/2022</p>
+                            <p className='text-stone-800 size text-lg'><b>Time</b> 10:00am - 2:00pm</p>
                         </div>
                     </div>
                     
