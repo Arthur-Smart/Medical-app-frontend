@@ -42,9 +42,9 @@ function Hero() {
                    <div className='flex justify-start'>
                        <AvatarGroup total={24}>
                             <Avatar alt="Remy Sharp" src={require('../../assets/person1.jpg')} />
-                            <Avatar alt="Travis Howard" src={require('../../assets/person2.jpg')} />
-                            <Avatar alt="Agnes Walker" src={require('../../assets/person1.jpg')} />
-                            <Avatar alt="Trevor Henderson" src={require('../../assets/person2.jpg')} />
+                            <Avatar alt="Travis Howard" src={require('../../assets/man2.jpg')} />
+                            <Avatar alt="Agnes Walker" src={require('../../assets/woman2.jpg')} />
+                            <Avatar alt="Trevor Henderson" src={require('../../assets/woman3.jpg')} />
                       </AvatarGroup>
                    </div>
                 </div>
