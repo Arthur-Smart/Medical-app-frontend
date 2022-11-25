@@ -5,7 +5,7 @@ function Team() {
   return (
     <div className='team py-10 flex flex-col items-center justify-center'>
         <p className='text-3xl px-1 md:text-5xl font-extrabold  text-center text-slate-700'>Meet our amaizing <span className='font-extrabold text-transparent text-5xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>healthcare team</span></p>
-        <p className='text-slate-600 text-lg mt-2 px-1 text-center '>Always committed to ensure your healthcare nneds are attended to ASAP</p>
+        <p className='text-slate-600 text-lg mt-2 px-1 text-center '>Always committed to ensure your healthcare needs are attended to ASAP</p>
       <div className='team-wrapper mt-10 flex flex-col items-center justify-center'>
            <div className='container doctor-details flex items-center justify-center'>
           <div className='team-left flex items-center justify-start'>
