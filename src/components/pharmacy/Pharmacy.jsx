@@ -19,7 +19,7 @@ function Pharmacy() {
   return (
     <div className='pharmacy py-10 flex  items-center justify-center' id='pharmacy'>
     <div className='container flex flex-col items-center justify-center '>
-            <p className='font-medium text-center text-4xl text-slate-800'>Welcome to our <span className='text-cyan-600'>online pharmacy</span>. Duka online </p>
+            <p className='font-medium px-1 text-center text-4xl text-slate-800'>Welcome to our <span className='text-cyan-600'>online pharmacy</span>. Duka online </p>
             <p className='text-center px-2'>We have as well given the prescription of every drug. Consult a doctor where you are in doubt</p>
             <div>
                 <select className='select rounded-md text-center bg-sky-300 px-3' onChange={(e)=> setSelect(e.target.value)}>
