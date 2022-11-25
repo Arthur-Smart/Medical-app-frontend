@@ -83,4 +83,11 @@ height: 100%;
         font-size: 40px;
         line-height: 40px;
     }
+ .length{
+        width:300px;
+    }
+
+.length:last-child{
+    margin-left: 0;
+}   
 }
