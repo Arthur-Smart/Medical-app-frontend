@@ -13,7 +13,7 @@ function Hero() {
         <div className='flex hero-main container justify-between'>
             <div className='hero-left'>
                 <p className='line-height hero-text  text-8xl text-white font-medium'>Boresha Afya < br/> <span className='font-extrabold text-transparent text-10xl bg-clip-text bg-gradient-to-r from-blue-400 to-violet-800'> Healthcare</span> < br/>here at your reach</p>
-                <p className='text-white  px-2 md:px-0 text-center md:text-start'>We have made our medical services accessible at the near reaches. We offer the best healthcare services globally.< br/>We are a tech driven as well to ensure that you are at our nearest reach. Click the Daktari online button to get access < br/> to a doctor.
+                <p className='text-white  px-1 md:px-0 text-center md:text-start'>We have made our medical services accessible at the near reaches. We offer the best healthcare services globally.< br/>We are a tech driven as well to ensure that you are at our nearest reach. Click the Daktari online button to get access < br/> to a doctor.
                 We ensure that your family is also covered from the very little to the very old</p>
                 <div className='flex items-center online-pharmacy-btn'>
                     <div>
