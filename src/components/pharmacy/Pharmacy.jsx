@@ -1,21 +1,33 @@
 import React, {useState, useEffect} from 'react'
+import {useSelector} from 'react-redux'
 import axios from "axios"
-import { Link } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 import './pharmacy.css'
 
 function Pharmacy() {
+    const {currentUser} = useSelector(state => state.user)
+    const [message, setMessage] = useState(false)
     const [data, setData] = useState([])
     const [select, setSelect] = useState('');
     const filteredData = (select ==='all' ? data : data.filter((d) => d.category.includes(select)))
-    
+    const navigate = useNavigate()
 
     useEffect(() => {
         const fetchedData = async() => {
-           const result = await axios('https://medical-app.onrender.com/api/med/')
+           const result = await axios.get('https://medical-app.onrender.com/api/med/')
            setData(result.data)
         }
         fetchedData()
     }, [])
+
+    const handleAddToCart = (id) =>{
+        if(currentUser == null){
+            alert('Please Sing in to continue purchasing')
+        } else {
+           navigate(`/products/${id}`)
+        }
+    }
+
   return (
     <div className='pharmacy py-10 flex  items-center justify-center' id='pharmacy'>
     <div className='container flex flex-col items-center justify-center '>
@@ -38,8 +50,8 @@ function Pharmacy() {
                                 <p>{d.description}</p>
                                 <div className=' flex items-center justify-between py-2'>
                                     <p className='text-xl font-medium text-cyan-600'>Kes /= {d.cost}</p>
-                                   <Link to={`/products/${d._id}`}><button className='purchase text-white font-medium py-4 rounded-md px-10 bg-gradient-to-r from-cyan-500 to-blue-500'>Purchase</button></Link> 
-                                </div>
+                                   <button onClick={() =>handleAddToCart(d._id)} className='purchase text-white font-medium py-4 rounded-md px-10 bg-gradient-to-r from-cyan-500 to-blue-500'>Purchase</button>
+                                </div>                            
                             </div>
                     </div>
                     ))}                                      
