@@ -22,7 +22,7 @@ function Updates() {
   return (
     <div className='updates flex  items-center justify-center'>
         <div className='container flex flex-col items-center justify-center'>
-            <p className='text-center font-bold text-6xl  text-white'>Our upcoming <span className='font-extrabold text-transparent text-10xl bg-clip-text bg-gradient-to-r from-blue-400 to-pink-800'>medical</span> events</p>
+            <p className='text-center font-bold text-4xl md:text-6xl  text-white'>Our upcoming <span className='font-extrabold text-transparent text-10xl bg-clip-text bg-gradient-to-r from-blue-400 to-pink-800'>medical</span> events</p>
             <p className='mt-3 text-white text-center text-lg'>We are committed to ensure that you do not miss any of our medical offers and events</p>
             <div className='container update-wrapper gap-3.5 mt-4 flex items-center justify-center'>
                 <div className='update-container rounded-md'>
