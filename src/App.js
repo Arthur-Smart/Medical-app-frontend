@@ -14,7 +14,7 @@ function App() {
   const {currentUser} = useSelector(state => state.user)
   return (
      <BrowserRouter>
-    <div >
+    <div className='App'>
       <Navbar/>
        <Routes>      
          <Route  exact path='/' element={ <Home/>}/>  
