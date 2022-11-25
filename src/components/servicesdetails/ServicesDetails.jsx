@@ -4,8 +4,8 @@ import './servicesdetails.css'
 function ServicesDetails() {
   return (
     <div className='services-details flex flex-col items-center justify-center pt-4' id='services'>
-        <p className='font-bold text-3xl text-gray-700'>Our list of <span className='font-extrabold text-transparent text-3xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>multiple services</span> that we Offer</p>
-        <p className='text-sky-600 mb-3'>From infants, teenages, adults and old age individuals we offer all medical services as per their needs</p>
+        <p className='font-bold text-3xl text-center px-1 text-gray-700'>Our list of <span className='font-extrabold text-transparent text-3xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>multiple services</span> that we Offer</p>
+        <p className='text-sky-600 text-center px-1 mb-3'>From infants, teenages, adults and old age individuals we offer all medical services as per their needs</p>
         <div className='container flex flex-col items-center justify-center'>
         {/*Service container */}
             <div className='service-cont flex flex-wrap items-center justify-between'>
