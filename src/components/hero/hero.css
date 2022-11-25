@@ -1,5 +1,6 @@
 .hero{
     height:calc(100vh - 100px + 80px);
+    padding-bottom:20px;
     background-color: #101C37;
     overflow: hidden;
 }
