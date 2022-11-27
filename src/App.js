@@ -1,4 +1,5 @@
 import './App.css';
+import React, { useEffect } from 'react';
 import Footer from './components/footer/Footer';
 import Navbar from './components/navbar/Navbar';
 import About from './pages/about/About';
