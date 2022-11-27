@@ -1,6 +1,7 @@
 .maincart{
     width:100%;
     position: relative;
+    margin-top:100px;
 }
 
 .cart-header{
