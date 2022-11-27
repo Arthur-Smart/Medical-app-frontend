@@ -5,7 +5,7 @@ import './services.css'
 
 function Services() {
   return (
-    <div>
+    <div className='services'>
       <ServicesHero/>
       <ServicesDetails/>
       <div className='socket flex items-center justify-center py-5'>
