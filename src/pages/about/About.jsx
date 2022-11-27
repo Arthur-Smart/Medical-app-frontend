@@ -6,7 +6,7 @@ import Team from '../../components/team/Team'
 
 function About() {
   return (
-    <div>
+    <div className='about'>
         <AboutHero/>
         <Team/>
         <JuniorTeam/>
